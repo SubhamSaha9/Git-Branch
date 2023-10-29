@@ -11,4 +11,4 @@
 # Merging branches
 
 1: `git diff <branch name>` (to compare commits, branches, files & more)</br>
-2: `git merge <branch name>` (to merge two branches)</br> &ensp; or </br> &ensp; create pull request</br>
+2: `git merge <branch name>` (to merge two branches)</br> &ensp;or </br> &ensp; create pull request</br>
