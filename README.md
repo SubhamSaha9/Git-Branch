@@ -7,3 +7,4 @@
 3: `git checkout <branch name>` (to navigate)</br>
 4: `git checkout -b <branch name>` (to create new branch)</br>
 5: `git branch -d <branch name>` (to delete branch)</br>
+
