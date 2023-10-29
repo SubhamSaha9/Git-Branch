@@ -20,10 +20,10 @@
 # fixing issue
 
 case 1: staged(add) changes</br>
-&ensp; 1: git reset <file name> (to unstage that particular file)</br>
-&ensp; 2: git reset (to unstage all the last added file)</br>
+&ensp; 1: `git reset <file name>` (to unstage that particular file)</br>
+&ensp; 2: `git reset` (to unstage all the last added file)</br>
 case 2: commited changes(for one change)</br>
-&ensp; 1: git reset HEAD~1 (uncommit and unstage the last commit)</br>
+&ensp; 1: `git reset HEAD~1` (uncommit and unstage the last commit)</br>
 case 3: commited changes(for many changes)</br>
-&ensp; 1: git reset <commit hash>(run git log to get all the commits and there we will get commit hash)</br>
-&ensp; 2: git reset --HARD<commit hash> (remove the changes in files after that commit)
+&ensp; 1: `git reset <commit hash>` (run `git log` to get all the commits and there we will get `commit hash`)</br>
+&ensp; 2: `git reset --hard <commit hash>` (remove the changes in files after that commit)
